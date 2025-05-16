@@ -31,14 +31,14 @@ def find_units_with_multiple_active_leases(db: Session):
 
 def find_duplicate_leases(db: Session):
     """Find duplicated leases without deleting them"""
-    query = db.query(Lease).filter(
-        Lease.lease_id.in_(
-            db.query(Lease.unit_id, Lease.tenant_id, Lease.start_date, Lease.end_date)
-            .group_by(Lease.unit_id, Lease.tenant_id, Lease.start_date, Lease.end_date)
-            .having(func.count() > 1)
-            .with_entities(Lease.lease_id)
-        )
-    ).all()
+    duplicate_lease_ids = db.query(Lease.lease_id)\
+        .group_by(Lease.lease_id)\
+        .having(func.count() > 1)\
+        .scalar_subquery()  # Use scalar_subquery() instead of subquery()
+    
+    query = db.query(Lease)\
+        .filter(Lease.lease_id.in_(duplicate_lease_ids))\
+        .all()
     return query
 
 def get_quarterly_occupancy_rates(db: Session, property_id: int = None):
