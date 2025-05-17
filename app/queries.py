@@ -33,8 +33,8 @@ def find_duplicate_leases(db: Session):
     """Find duplicated leases without deleting them"""
     duplicate_lease_ids = db.query(Lease.lease_id)\
         .group_by(Lease.lease_id)\
-        .having(func.count() > 1)\
-        .scalar_subquery()  # Use scalar_subquery() instead of subquery()
+        .having(func.count(Lease.lease_id) > 1)\
+        .scalar_subquery()
     
     query = db.query(Lease)\
         .filter(Lease.lease_id.in_(duplicate_lease_ids))\

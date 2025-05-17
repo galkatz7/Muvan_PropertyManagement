@@ -36,3 +36,67 @@ Total count: 1
 
 Details:
 Lease ID: 26, Unit ID: 7, Tenant ID: 25, Start Date: 2023-07-09, End Date: 2023-11-25
+
+==================================================
+QUARTERLY OCCUPANCY RATES (PREVIOUS YEAR)
+==================================================
+Total rows: 40
+
+Details:
+Property ID: 1, Property Name: Property_1, Quarter: 2024-Q1, Occupancy Rate: 57.14%
+Property ID: 1, Property Name: Property_1, Quarter: 2024-Q2, Occupancy Rate: 42.86%
+Property ID: 1, Property Name: Property_1, Quarter: 2024-Q3, Occupancy Rate: 42.86%
+Property ID: 1, Property Name: Property_1, Quarter: 2024-Q4, Occupancy Rate: 28.57%
+Property ID: 2, Property Name: Property_2, Quarter: 2024-Q1, Occupancy Rate: 40.00%
+Property ID: 2, Property Name: Property_2, Quarter: 2024-Q2, Occupancy Rate: 30.00%
+Property ID: 2, Property Name: Property_2, Quarter: 2024-Q3, Occupancy Rate: 30.00%
+Property ID: 2, Property Name: Property_2, Quarter: 2024-Q4, Occupancy Rate: 20.00%
+Property ID: 3, Property Name: Property_3, Quarter: 2024-Q1, Occupancy Rate: 50.00%
+Property ID: 3, Property Name: Property_3, Quarter: 2024-Q2, Occupancy Rate: 41.67%
+Property ID: 3, Property Name: Property_3, Quarter: 2024-Q3, Occupancy Rate: 41.67%
+Property ID: 3, Property Name: Property_3, Quarter: 2024-Q4, Occupancy Rate: 33.33%
+Property ID: 4, Property Name: Property_4, Quarter: 2024-Q1, Occupancy Rate: 53.85%
+Property ID: 4, Property Name: Property_4, Quarter: 2024-Q2, Occupancy Rate: 53.85%
+Property ID: 4, Property Name: Property_4, Quarter: 2024-Q3, Occupancy Rate: 46.15%
+Property ID: 4, Property Name: Property_4, Quarter: 2024-Q4, Occupancy Rate: 46.15%
+Property ID: 5, Property Name: Property_5, Quarter: 2024-Q1, Occupancy Rate: 42.86%
+Property ID: 5, Property Name: Property_5, Quarter: 2024-Q2, Occupancy Rate: 28.57%
+Property ID: 5, Property Name: Property_5, Quarter: 2024-Q3, Occupancy Rate: 28.57%
+Property ID: 5, Property Name: Property_5, Quarter: 2024-Q4, Occupancy Rate: 28.57%
+Property ID: 6, Property Name: Property_6, Quarter: 2024-Q1, Occupancy Rate: 62.50%
+Property ID: 6, Property Name: Property_6, Quarter: 2024-Q2, Occupancy Rate: 50.00%
+Property ID: 6, Property Name: Property_6, Quarter: 2024-Q3, Occupancy Rate: 25.00%
+Property ID: 6, Property Name: Property_6, Quarter: 2024-Q4, Occupancy Rate: 12.50%
+Property ID: 7, Property Name: Property_7, Quarter: 2024-Q1, Occupancy Rate: 20.00%
+Property ID: 7, Property Name: Property_7, Quarter: 2024-Q2, Occupancy Rate: 20.00%
+Property ID: 7, Property Name: Property_7, Quarter: 2024-Q3, Occupancy Rate: 20.00%
+Property ID: 7, Property Name: Property_7, Quarter: 2024-Q4, Occupancy Rate: 20.00%
+Property ID: 8, Property Name: Property_8, Quarter: 2024-Q1, Occupancy Rate: 33.33%
+Property ID: 8, Property Name: Property_8, Quarter: 2024-Q2, Occupancy Rate: 33.33%
+Property ID: 8, Property Name: Property_8, Quarter: 2024-Q3, Occupancy Rate: 33.33%
+Property ID: 8, Property Name: Property_8, Quarter: 2024-Q4, Occupancy Rate: 16.67%
+Property ID: 9, Property Name: Property_9, Quarter: 2024-Q1, Occupancy Rate: 38.46%
+Property ID: 9, Property Name: Property_9, Quarter: 2024-Q2, Occupancy Rate: 38.46%
+Property ID: 9, Property Name: Property_9, Quarter: 2024-Q3, Occupancy Rate: 38.46%
+Property ID: 9, Property Name: Property_9, Quarter: 2024-Q4, Occupancy Rate: 30.77%
+Property ID: 10, Property Name: Property_10, Quarter: 2024-Q1, Occupancy Rate: 44.44%
+Property ID: 10, Property Name: Property_10, Quarter: 2024-Q2, Occupancy Rate: 44.44%
+Property ID: 10, Property Name: Property_10, Quarter: 2024-Q3, Occupancy Rate: 33.33%
+Property ID: 10, Property Name: Property_10, Quarter: 2024-Q4, Occupancy Rate: 33.33%
+
+==================================================
+AVERAGE LEASE DURATION PER PROPERTY (DAYS)
+==================================================
+Total properties: 10
+
+Details:
+Property ID: 1, Property Name: Property_1, Average Lease Duration: 317.22 days
+Property ID: 2, Property Name: Property_2, Average Lease Duration: 168.77 days
+Property ID: 3, Property Name: Property_3, Average Lease Duration: 182.68 days
+Property ID: 4, Property Name: Property_4, Average Lease Duration: 215.88 days
+Property ID: 5, Property Name: Property_5, Average Lease Duration: 195.18 days
+Property ID: 6, Property Name: Property_6, Average Lease Duration: 178.23 days
+Property ID: 7, Property Name: Property_7, Average Lease Duration: 219.79 days
+Property ID: 8, Property Name: Property_8, Average Lease Duration: 172.82 days
+Property ID: 9, Property Name: Property_9, Average Lease Duration: 205.07 days
+Property ID: 10, Property Name: Property_10, Average Lease Duration: 180.0 days
