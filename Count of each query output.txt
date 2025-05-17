@@ -38,7 +38,7 @@ Details:
 Lease ID: 26, Unit ID: 7, Tenant ID: 25, Start Date: 2023-07-09, End Date: 2023-11-25
 
 ==================================================
-QUARTERLY OCCUPANCY RATES (PREVIOUS YEAR)
+QUARTERLY OCCUPANCY RATES (2024)
 ==================================================
 Total rows: 40
 

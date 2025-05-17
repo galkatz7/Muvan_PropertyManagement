@@ -42,6 +42,15 @@ uvicorn app.main:app --reload
 - **Database Migration**: Structure allows for easy migration to more robust databases like PostgreSQL if needed.
 - **Containerization**: Can be containerized using Docker for easy deployment.
 
+## Count of each query output
+
+- You can find in a text file with that name
+
+## A SQL script containing your queries
+
+- All queries are in queries.py
+
+
 ## Sample JSON Responses
 
 ### Quarterly Occupancy Rates
@@ -73,15 +82,13 @@ uvicorn app.main:app --reload
 ### Average Lease Duration
 ```json
 {
-  "property_id": 1,
-  "property_name": "Property_1",
-  "average_lease_duration_days": 248.5
+  "property_id": 7,
+  "property_name": "Property_7",
+  "average_lease_duration_days": 219.79
 }
 ```
 
 ## Assumptions
 
-- Date format in CSV files is DD/MM/YYYY.
 - Property IDs are unique and correspond properly between tables.
 - A unit can have multiple leases but should ideally not have overlapping active leases.
-- Quarterly calculations are based on calendar quarters.
