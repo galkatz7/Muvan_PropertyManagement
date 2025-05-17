@@ -1,0 +1,38 @@
+==================================================
+UNITS NEVER LEASED
+==================================================
+Total count: 0
+
+Details:
+
+==================================================
+UNITS WITH FUTURE LEASES
+==================================================
+Total count: 10
+
+Details:
+Unit ID: 4, Unit Number: Unit_4
+Unit ID: 19, Unit Number: Unit_19
+Unit ID: 34, Unit Number: Unit_34
+Unit ID: 37, Unit Number: Unit_37
+Unit ID: 38, Unit Number: Unit_38
+Unit ID: 39, Unit Number: Unit_39
+Unit ID: 41, Unit Number: Unit_41
+Unit ID: 64, Unit Number: Unit_64
+Unit ID: 82, Unit Number: Unit_82
+Unit ID: 6, Unit Number: Unit_6
+
+==================================================
+UNITS WITH MULTIPLE ACTIVE LEASES (AS OF TODAY)
+==================================================
+Total count: 0
+
+Details:
+
+==================================================
+DUPLICATE LEASES
+==================================================
+Total count: 1
+
+Details:
+Lease ID: 26, Unit ID: 7, Tenant ID: 25, Start Date: 2023-07-09, End Date: 2023-11-25

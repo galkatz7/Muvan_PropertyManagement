@@ -51,20 +51,20 @@ uvicorn app.main:app --reload
   "property_name": "Property_1",
   "quarterly_rates": [
     {
-      "quarter": "Q1",
-      "occupancy_rate": 0.85
+      "quarter": "2024-Q1",
+      "occupancy_rate": 0.5714285714285714
     },
     {
-      "quarter": "Q2",
-      "occupancy_rate": 0.92
+      "quarter": "2024-Q2",
+      "occupancy_rate": 0.42857142857142855
     },
     {
-      "quarter": "Q3",
-      "occupancy_rate": 0.78
+      "quarter": "2024-Q3",
+      "occupancy_rate": 0.42857142857142855
     },
     {
-      "quarter": "Q4",
-      "occupancy_rate": 0.88
+      "quarter": "2024-Q4",
+      "occupancy_rate": 0.2857142857142857
     }
   ]
 }
